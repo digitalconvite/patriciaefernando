@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
       e.preventDefault();
 
       // Digite aqui o número do WhatsApp que vai receber os dados (DDD + número)
-      const numeroWhatsapp = "5511973968625"; 
+      const numeroWhatsapp = "554299756543"; 
 
       const nome = document.getElementById('nome').value;
       const celebracao = document.getElementById('presencaCelebracao').value;
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const acompanhantes = document.getElementById('acompanhantes').value;
 
       // Formatação da mensagem para o WhatsApp
-      let mensagem = `*Confirmação de Presença - Casamento Noivo & Noiva*\n\n`;
+      let mensagem = `*Confirmação de Presença - Fernando & Patrícia*\n\n`;
       mensagem += `👤 *Nome:* ${nome}\n`;
       mensagem += `⛪ *Celebração:* ${celebracao}\n`;
       mensagem += `🥂 *Recepção:* ${recepcao}\n`;
