@@ -38,14 +38,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
       const nome = document.getElementById('nome').value;
       const celebracao = document.getElementById('presencaCelebracao').value;
-      const recepcao = document.getElementById('presencaRecepcao').value;
       const acompanhantes = document.getElementById('acompanhantes').value;
 
       // Formatação da mensagem para o WhatsApp
       let mensagem = `*Confirmação de Presença - Fernando & Patrícia*\n\n`;
       mensagem += `👤 *Nome:* ${nome}\n`;
       mensagem += `⛪ *Celebração:* ${celebracao}\n`;
-      mensagem += `🥂 *Recepção:* ${recepcao}\n`;
       mensagem += `👥 *Acompanhantes:* ${acompanhantes}`;
 
       // Monta e abre a URL no WhatsApp
